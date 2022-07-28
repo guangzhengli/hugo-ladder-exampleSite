@@ -16,6 +16,7 @@ params:
   avatarURL: /images/avatar.png
   author: iguangzhengli@gmail.com
   info: '阅读与思考, 真理与自由'
+  description: "Theme Ladder: A fast, clean Hugo theme. https://github.com/guangzhengli/hugo-theme-ladder"
   social:
     - name: GitHub
       pre: >-
