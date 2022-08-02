@@ -5,4 +5,4 @@ description: "Hugo, the categories for building websites"
 tags: ["markdown", "css", "html", "themes"]
 series: ["Markdown"]
 ---
-This post contains 3 categories. Make sure your theme can display all of the categories.
+This post contains 3 categories. [markdown](https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE) Make sure your theme can display all of the categories.

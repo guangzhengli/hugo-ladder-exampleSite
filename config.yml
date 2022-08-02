@@ -6,17 +6,24 @@ license: MIT
 licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
 description: 'A fast, clean Hugo theme'
 homepage: 'https://guangzhengli.github.io/'
-googleAnalytics: G-7E4JNTL3ES
-
-taxonomies:
-  series: series
-  tag: tags
-
 params:
   avatarURL: /images/avatar.png
   author: iguangzhengli@gmail.com
   info: '阅读与思考, 真理与自由'
-  description: "Theme Ladder: A fast, clean Hugo theme. https://github.com/guangzhengli/hugo-theme-ladder"
+  favicon: /images/avatar.png
+  options:
+    showDarkMode: true
+    enableImgZooming: true
+  #  darkModeTheme: icy-dark-mode
+  darkModeTheme: data-dark-mode
+  comments:
+    enable: true
+    repo: guangzhengli/blog-comments
+    issueTerm: pathname
+    googleAnalytics: G-7E4JNTL3ES
+  analytics:
+    google:
+      SiteVerificationTag: RL6kP6-6yjRPyYGLeqBQ2JIX6QQAz7A6gHZb7bHlZnU
   social:
     - name: GitHub
       pre: >-
@@ -38,17 +45,6 @@ params:
         0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20
         0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
       url: 'https://twitter.com/iguangzhengli'
-  options:
-    showDarkMode: true
-    enableImgZooming: true
-  comments:
-    enable: true
-    repo: guangzhengli/blog-comments
-    issueTerm: pathname
-  analytics:
-    google:
-      SiteVerificationTag: RL6kP6-6yjRPyYGLeqBQ2JIX6QQAz7A6gHZb7bHlZnU
-
 languages:
   en:
     languageName: EN
@@ -76,3 +72,6 @@ languages:
         - name: 历史文章
           url: /archives
           weight: 3
+taxonomies:
+  series: series
+  tag: tags
