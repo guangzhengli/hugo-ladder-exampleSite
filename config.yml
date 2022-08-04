@@ -1,11 +1,11 @@
-baseURL: 'https://www.guangzhengli.com/'
+baseURL: 'https://guangzhengli.github.io/'
 languageCode: en-us
 title: LADDER
 theme: hugo-theme-ladder
 license: MIT
 licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
 description: 'A fast, clean Hugo theme'
-homepage: 'https://www.guangzhengli.com/'
+homepage: 'https://guangzhengli.github.io/'
 params:
   avatarURL: /images/avatar.png
   author: iguangzhengli@gmail.com
