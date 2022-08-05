@@ -6,6 +6,7 @@ license: MIT
 licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
 description: 'A fast, clean Hugo theme'
 homepage: 'https://guangzhengli.github.io/'
+googleAnalytics: G-7E4JNTL3ES
 params:
   avatarURL: /images/avatar.png
   author: iguangzhengli@gmail.com
@@ -20,7 +21,6 @@ params:
     enable: true
     repo: guangzhengli/blog-comments
     issueTerm: pathname
-    googleAnalytics: G-7E4JNTL3ES
   analytics:
     google:
       SiteVerificationTag: RL6kP6-6yjRPyYGLeqBQ2JIX6QQAz7A6gHZb7bHlZnU
