@@ -10,7 +10,7 @@ googleAnalytics: G-7E4JNTL3ES
 paginate: 10
 params:
   brand: HOME
-  avatarURL: /images/IMG_0780.jpeg
+  avatarURL: /images/avatar.png
   author: Hugo Ladder
   authorDescription: A clean, fast hugo theme focused on Reading
   info: Build a free and beautiful blog site to record your thoughts and increase your influence
