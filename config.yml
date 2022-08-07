@@ -1,16 +1,19 @@
 baseURL: 'https://guangzhengli.github.io/'
-languageCode: en-us
 title: LADDER
 theme: hugo-theme-ladder
 license: MIT
 licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
 description: 'A fast, clean Hugo theme'
 homepage: 'https://guangzhengli.github.io/'
+defaultContentLanguage: 'en'
 googleAnalytics: G-7E4JNTL3ES
+paginate: 10
 params:
-  avatarURL: /images/avatar.png
-  author: iguangzhengli@gmail.com
-  info: '阅读与思考, 真理与自由'
+  brand: HOME
+  avatarURL: /images/IMG_0780.jpeg
+  author: Hugo Ladder
+  authorDescription: A clean, fast hugo theme focused on Reading
+  info: Build a free and beautiful blog site to record your thoughts and increase your influence
   favicon: /images/avatar.png
   options:
     showDarkMode: true
@@ -61,6 +64,9 @@ languages:
           weight: 3
   zh:
     languageName: 中
+    author: Ladder 主题
+    authorDescription: 一个美观，快速并且专注于阅读的主题
+    info: 帮助开发者构建一个免费并且漂亮的博客网站，记录自己的思考并且提高自己的影响力
     menu:
       main:
         - name: 文章

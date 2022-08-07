@@ -5,6 +5,7 @@ tags:
   - Foo
   - Bar
 featured: true
+series: ["Markdown"]
 ---
 
 This post is originated from [here](https://gist.github.com/apackeer/4159268) and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.

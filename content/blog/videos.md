@@ -6,10 +6,27 @@ tags:
 
 This is a video test post.
 
-**Youtube**
+## YouTube Privacy Enhanced Shortcode
 
-{% youtube TIbZDRXM-Tg %}
+{{< youtube ZJthWmvUzzc >}}
 
-**Vimeo**
+<br>
 
-{% vimeo 82090131 %}
+---
+<!--more-->
+## Twitter Simple Shortcode
+
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+
+<br>
+
+---
+
+## Vimeo Simple Shortcode
+
+{{< vimeo_simple 48912912 >}}
+
+## BiliBili Shortcode
+
+{{< bilibili BV1ox411n7eT >}}
+

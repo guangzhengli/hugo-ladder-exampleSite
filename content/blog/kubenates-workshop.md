@@ -2,6 +2,7 @@
 title: Kubenates workshop
 date: 2021-07-18 20:29:08
 tags: ["CloudNative", "kubenates", "container", "helm"]
+featured: true
 ---
 
 本文关于 kubenates workshop
