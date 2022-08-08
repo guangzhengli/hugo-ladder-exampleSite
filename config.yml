@@ -63,6 +63,8 @@ languages:
         - name: Archive
           url: /archives
           weight: 3
+        - name: Dashboard
+          url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
   zh:
     languageName: 中
     author: Ladder 主题
