@@ -26,7 +26,3 @@ This is a video test post.
 
 {{< vimeo_simple 48912912 >}}
 
-## BiliBili Shortcode
-
-{{< bilibili BV1ox411n7eT >}}
-
