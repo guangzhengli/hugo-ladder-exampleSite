@@ -40,6 +40,9 @@ params:
       enable: true
       website_id: 2320eaa6-a90b-471c-b6ca-e79dadde8c4c
       url: https://umami-ochre-nu.vercel.app/hugo-ladder.js
+  guestbook:
+    title: Guestbook
+    description: Leave a comment below. It could be anything –- question, appreciation, information, or even humor.
   social:
     - name: GitHub
       pre: >-
@@ -63,13 +66,20 @@ languages:
         - name: Archive
           url: /archives
           weight: 3
+        - name: Guestbook
+          url: /guestbook
+          weight: 4
         - name: Dashboard
           url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
+          weight: 5
   zh:
     languageName: 中
     author: Ladder 主题
     authorDescription: 一个美观，快速并且专注于阅读的主题
     info: 帮助开发者构建一个免费并且漂亮的博客网站，记录自己的思考并且提高自己的影响力
+    guestbook:
+      title: 留言板
+      description: 您的评论，会让该网站更精彩！
     menu:
       main:
         - name: 文章
@@ -81,6 +91,12 @@ languages:
         - name: 历史文章
           url: /archives
           weight: 3
+        - name: 留言板
+          url: /guestbook
+          weight: 4
+        - name: 网站统计
+          url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
+          weight: 5
 taxonomies:
   series: series
   tag: tags
