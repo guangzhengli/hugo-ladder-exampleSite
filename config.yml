@@ -18,7 +18,9 @@ params:
   options:
     showDarkMode: true
     enableImgZooming: true
-  darkModeTheme: data-dark-mode #other dark theme: icy-dark-mode
+    enableMultiLang: true
+  darkModeTheme: data-dark-mode
+  #darkModeTheme: icy-dark-mode
   comments:
     giscus:
       enable: true
