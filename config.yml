@@ -8,6 +8,23 @@ homepage: 'https://hugo-ladder.pages.dev'
 defaultContentLanguage: 'en'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
+menu:
+  main:
+    - name: Blog
+      url: /blog
+      weight: 1
+    - name: Tags
+      url: /tags
+      weight: 2
+    - name: Archive
+      url: /archives
+      weight: 3
+    - name: Guestbook
+      url: /guestbook
+      weight: 4
+    - name: Dashboard
+      url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
+      weight: 5
 params:
   brand: HOME
   avatarURL: /images/avatar.png
@@ -57,23 +74,6 @@ params:
 languages:
   en:
     languageName: EN
-    menu:
-      main:
-        - name: Blog
-          url: /blog
-          weight: 1
-        - name: Tags
-          url: /tags
-          weight: 2
-        - name: Archive
-          url: /archives
-          weight: 3
-        - name: Guestbook
-          url: /guestbook
-          weight: 4
-        - name: Dashboard
-          url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
-          weight: 5
   zh:
     languageName: 中
     author: Ladder 主题
