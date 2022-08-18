@@ -30,7 +30,7 @@ params:
   avatarURL: /images/avatar.png
   author: Hugo Ladder
   authorDescription: A clean, fast hugo theme focused on Reading
-  info: Build a free and beautiful blog site to record your thoughts and increase your influence
+  info: Ladder is a clean, simple but beautiful theme with awesome features
   favicon: /images/avatar.png
   options:
     showDarkMode: true
