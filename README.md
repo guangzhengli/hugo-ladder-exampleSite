@@ -1,6 +1,8 @@
 ## how to install
 
-Just click `Use this template` to create your blog site in the [exampleSite Source Code](https://github.com/guangzhengli/hugo-ladder-exampleSite).
+Just click `Use this template` to create your blog site by 
+
+![4dmtph](https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png)
 
 Create a new repository(GitHub Pages) from hugo-ladder-exampleSite to enter : `username.github.io`.
 
