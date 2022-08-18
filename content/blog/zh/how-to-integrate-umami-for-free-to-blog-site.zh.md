@@ -52,4 +52,4 @@ featured: true
 
 最终，我们可以得到本站数据统计看板的功能🎉🎉🎉
 
-原文链接：https://guangzhengli.com/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/
+原文链接: https://guangzhengli.com/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/

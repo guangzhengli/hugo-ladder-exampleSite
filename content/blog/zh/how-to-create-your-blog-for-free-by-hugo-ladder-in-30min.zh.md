@@ -424,4 +424,4 @@ git push origin main
 
 如果部署时，有任何问题，可以在下方留言。
 
-原文链接：https://guangzhengli.com/zh/blog/zh/how-to-create-your-blog-for-free-by-hugo-ladder-in-30min/
+原文链接: https://guangzhengli.com/zh/blog/zh/how-to-create-your-blog-for-free-by-hugo-ladder-in-30min/
