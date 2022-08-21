@@ -8,7 +8,7 @@ featured: false
 ## figure
 
 ## ref in posts
-[Neat]({{< ref "blog/zh/how-to-create-your-blog-for-free-by-hugo-ladder-in-30min.zh" >}})
+[Neat]({{< ref "blog/zh/how-to-integrate-umami-for-free-to-blog-site.zh" >}})
 
 ## hide toggle
 {{< toggle summary="summary" >}}
