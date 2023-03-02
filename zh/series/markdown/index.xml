@@ -1,2 +1,611 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on LADDER</title><link>https://hugo-ladder.pages.dev/zh/series/markdown/</link><description>Recent content in Markdown on LADDER</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 25 Jul 2019 16:43:00 +0000</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/zh/series/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlight Style test</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/code-highlight/</link><pubDate>Thu, 25 Jul 2019 16:43:00 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/code-highlight/</guid><description>&lt;p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of &lt;a href="https://highlightjs.org">https://highlightjs.org&lt;/a>&lt;/p></description></item><item><title>Elements</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/elements/</link><pubDate>Tue, 24 Dec 2013 23:29:08 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/elements/</guid><description>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don&amp;rsquo;t forget to redefine the style by yourself.
-Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Paragraph Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl.</description></item><item><title>Markdown Style test</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/markdown/</guid><description>&lt;p>This post is originated from &lt;a href="https://gist.github.com/apackeer/4159268">here&lt;/a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on LADDER</title><link>https://hugo-ladder.pages.dev/zh/series/markdown/</link><description>Recent content in Markdown on LADDER</description><generator>Hugo -- gohugo.io</generator><copyright>2023 GuangzhengLi All rights reserved</copyright><lastBuildDate>Thu, 25 Jul 2019 16:43:00 +0000</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/zh/series/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Highlight Style test</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/code-highlight/</link><pubDate>Thu, 25 Jul 2019 16:43:00 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/code-highlight/</guid><description>&lt;p>Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of &lt;a href="https://highlightjs.org">https://highlightjs.org&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plain" data-lang="plain">&lt;span style="display:flex;">&lt;span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#[derive(Debug)]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">pub&lt;/span> &lt;span style="color:#66d9ef">enum&lt;/span> &lt;span style="color:#a6e22e">State&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Start,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Transient,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Closed,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">impl&lt;/span> From&lt;span style="color:#f92672">&amp;lt;&amp;amp;&lt;/span>&lt;span style="color:#a6e22e">&amp;#39;a&lt;/span> &lt;span style="color:#66d9ef">str&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> State {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">fn&lt;/span> &lt;span style="color:#a6e22e">from&lt;/span>(s: &lt;span style="color:#66d9ef">&amp;amp;&lt;/span>&lt;span style="color:#a6e22e">&amp;#39;a&lt;/span> &lt;span style="color:#66d9ef">str&lt;/span>) -&amp;gt; &lt;span style="color:#a6e22e">Self&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">match&lt;/span> s {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;start&amp;#34;&lt;/span> &lt;span style="color:#f92672">=&amp;gt;&lt;/span> State::Start,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;closed&amp;#34;&lt;/span> &lt;span style="color:#f92672">=&amp;gt;&lt;/span> State::Closed,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _ &lt;span style="color:#f92672">=&amp;gt;&lt;/span> unreachable!(),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>[
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;title&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;apples&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;count&amp;#34;&lt;/span>: [&lt;span style="color:#ae81ff">12000&lt;/span>, &lt;span style="color:#ae81ff">20000&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: {&lt;span style="color:#f92672">&amp;#34;text&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;...&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;#34;sensitive&amp;#34;&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;title&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;oranges&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;count&amp;#34;&lt;/span>: [&lt;span style="color:#ae81ff">17500&lt;/span>, &lt;span style="color:#66d9ef">null&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: {&lt;span style="color:#f92672">&amp;#34;text&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;...&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;#34;sensitive&amp;#34;&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">@requires_authorization&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">somefunc&lt;/span>(param1&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;&amp;#39;&lt;/span>, param2&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">r&lt;/span>&lt;span style="color:#e6db74">&amp;#39;&amp;#39;&amp;#39;A docstring&amp;#39;&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> param1 &lt;span style="color:#f92672">&amp;gt;&lt;/span> param2: &lt;span style="color:#75715e"># interesting&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print &lt;span style="color:#e6db74">&amp;#39;Gre&lt;/span>&lt;span style="color:#ae81ff">\&amp;#39;&lt;/span>&lt;span style="color:#e6db74">ater&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> (param2 &lt;span style="color:#f92672">-&lt;/span> param1 &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">0b10&lt;/span>l) &lt;span style="color:#f92672">or&lt;/span> &lt;span style="color:#66d9ef">None&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">SomeClass&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pass&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span> message &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;#39;&amp;#39;interpreter
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">... prompt&amp;#39;&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Title&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">style&lt;/span>&amp;gt;&lt;span style="color:#f92672">body&lt;/span> {&lt;span style="color:#66d9ef">width&lt;/span>: &lt;span style="color:#ae81ff">500&lt;/span>&lt;span style="color:#66d9ef">px&lt;/span>;}&amp;lt;/&lt;span style="color:#f92672">style&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;application/javascript&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">$init&lt;/span>() {&lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>;}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">p&lt;/span> &lt;span style="color:#a6e22e">checked&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;title&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;title&amp;#39;&lt;/span>&amp;gt;Title&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">&amp;lt;!-- here goes the rest of the page --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">$initHighlight&lt;/span>(&lt;span style="color:#a6e22e">block&lt;/span>, &lt;span style="color:#a6e22e">cls&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">try&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">cls&lt;/span>.&lt;span style="color:#a6e22e">search&lt;/span>(&lt;span style="color:#e6db74">/\bno\-highlight\b/&lt;/span>) &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">process&lt;/span>(&lt;span style="color:#a6e22e">block&lt;/span>, &lt;span style="color:#66d9ef">true&lt;/span>, &lt;span style="color:#ae81ff">0x0F&lt;/span>) &lt;span style="color:#f92672">+&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">` class=&amp;#34;&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>&lt;span style="color:#a6e22e">cls&lt;/span>&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;`&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">catch&lt;/span> (&lt;span style="color:#a6e22e">e&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* handle exception */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">/&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">classes&lt;/span>.&lt;span style="color:#a6e22e">length&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span>&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">checkCondition&lt;/span>(&lt;span style="color:#a6e22e">classes&lt;/span>[&lt;span style="color:#a6e22e">i&lt;/span>]) &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#66d9ef">undefined&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;undefined&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">div&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">web&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">component&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>{&lt;span style="color:#a6e22e">block&lt;/span>}&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">/web-component&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">/div&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> )
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#a6e22e">$initHighlight&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> argc, &lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span>argv[]) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* An annoying &amp;#34;Hello World&amp;#34; example */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">auto&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#ae81ff">0xFFFF&lt;/span>; i&lt;span style="color:#f92672">++&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello, World!&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> endl;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> c &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;\n&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> unordered_map &lt;span style="color:#f92672">&amp;lt;&lt;/span>string, vector&lt;span style="color:#f92672">&amp;lt;&lt;/span>string&lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> m;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> m[&lt;span style="color:#e6db74">&amp;#34;key&amp;#34;&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\\\\&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>; &lt;span style="color:#75715e">// this is an error
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">2e3&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">12l&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">CREATE&lt;/span> &lt;span style="color:#66d9ef">TABLE&lt;/span> &lt;span style="color:#e6db74">&amp;#34;topic&amp;#34;&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;id&amp;#34;&lt;/span> serial &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span> &lt;span style="color:#66d9ef">PRIMARY&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;forum_id&amp;#34;&lt;/span> integer &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;subject&amp;#34;&lt;/span> varchar(&lt;span style="color:#ae81ff">255&lt;/span>) &lt;span style="color:#66d9ef">NOT&lt;/span> &lt;span style="color:#66d9ef">NULL&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">ALTER&lt;/span> &lt;span style="color:#66d9ef">TABLE&lt;/span> &lt;span style="color:#e6db74">&amp;#34;topic&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">ADD&lt;/span> &lt;span style="color:#66d9ef">CONSTRAINT&lt;/span> forum_id &lt;span style="color:#66d9ef">FOREIGN&lt;/span> &lt;span style="color:#66d9ef">KEY&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;forum_id&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">REFERENCES&lt;/span> &lt;span style="color:#e6db74">&amp;#34;forum&amp;#34;&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;id&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">-- Initials
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">insert&lt;/span> &lt;span style="color:#66d9ef">into&lt;/span> &lt;span style="color:#e6db74">&amp;#34;topic&amp;#34;&lt;/span> (&lt;span style="color:#e6db74">&amp;#34;forum_id&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;subject&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">values&lt;/span> (&lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;D&amp;#39;&amp;#39;artagnian&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-objectivec" data-lang="objectivec">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#import &amp;lt;UIKit/UIKit.h&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#import &amp;#34;Dependency.h&amp;#34;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@protocol&lt;/span> &lt;span style="color:#a6e22e">WorldDataSource&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@optional&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> (NSString&lt;span style="color:#f92672">*&lt;/span>)worldName;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@required&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> (&lt;span style="color:#66d9ef">BOOL&lt;/span>)allowsToLive;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@property&lt;/span> (&lt;span style="color:#66d9ef">nonatomic&lt;/span>, &lt;span style="color:#66d9ef">readonly&lt;/span>) NSString &lt;span style="color:#f92672">*&lt;/span>title;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- (&lt;span style="color:#66d9ef">IBAction&lt;/span>) &lt;span style="color:#a6e22e">show&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@end&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-java" data-lang="java">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * @author John Smith &amp;lt;john.smith@example.com&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> l2f.gameserver.model&lt;span style="color:#f92672">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">L2Char&lt;/span> &lt;span style="color:#66d9ef">extends&lt;/span> L2Object &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">final&lt;/span> Short ERROR &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0x0001&lt;/span>&lt;span style="color:#f92672">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">moveTo&lt;/span>&lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> x&lt;span style="color:#f92672">,&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> y&lt;span style="color:#f92672">,&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> z&lt;span style="color:#f92672">)&lt;/span> &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _ai &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">null&lt;/span>&lt;span style="color:#f92672">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> log&lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Should not be called&amp;#34;&lt;/span>&lt;span style="color:#f92672">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#f92672">)&lt;/span> &lt;span style="color:#f92672">{&lt;/span> &lt;span style="color:#75715e">// wtf!?
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">return&lt;/span>&lt;span style="color:#f92672">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-swift" data-lang="swift">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> &lt;span style="color:#a6e22e">Foundation&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">@objc&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Person&lt;/span>: Entity {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> name: String!
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> age: Int!
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">init&lt;/span>(name: String, age: Int) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* /* ... */ */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Return a descriptive string for this person&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">description&lt;/span>(offset: Int = &lt;span style="color:#ae81ff">0&lt;/span>) -&amp;gt; String {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">\(&lt;/span>name&lt;span style="color:#e6db74">)&lt;/span>&lt;span style="color:#e6db74"> is &lt;/span>&lt;span style="color:#e6db74">\(&lt;/span>age &lt;span style="color:#f92672">+&lt;/span> offset&lt;span style="color:#e6db74">)&lt;/span>&lt;span style="color:#e6db74"> years old&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>@&lt;span style="color:#66d9ef">font-face&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">font-family&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">Chunkfive&lt;/span>&lt;span style="color:#f92672">;&lt;/span> &lt;span style="color:#f92672">src&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#f92672">url&lt;/span>&lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#e6db74">&amp;#39;Chunkfive.otf&amp;#39;&lt;/span>&lt;span style="color:#f92672">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">body&lt;/span>&lt;span style="color:#f92672">,&lt;/span> .&lt;span style="color:#a6e22e">usertext&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">color&lt;/span>: &lt;span style="color:#ae81ff">#F0F0F0&lt;/span>; &lt;span style="color:#66d9ef">background&lt;/span>: &lt;span style="color:#ae81ff">#600&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">font-family&lt;/span>: Chunkfive, sans;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>@&lt;span style="color:#66d9ef">import&lt;/span> &lt;span style="color:#f92672">url&lt;/span>&lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#f92672">print&lt;/span>.&lt;span style="color:#a6e22e">css&lt;/span>&lt;span style="color:#f92672">)&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>@&lt;span style="color:#66d9ef">media&lt;/span> &lt;span style="color:#f92672">print&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">a&lt;/span>&lt;span style="color:#f92672">[&lt;/span>&lt;span style="color:#f92672">href&lt;/span>&lt;span style="color:#f92672">^=&lt;/span>&lt;span style="color:#f92672">http&lt;/span>&lt;span style="color:#f92672">]&lt;/span>::&lt;span style="color:#a6e22e">after&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">content&lt;/span>: attr(href)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ruby" data-lang="ruby">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># The Greeter class&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Greeter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">initialize&lt;/span>(name)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @name &lt;span style="color:#f92672">=&lt;/span> name&lt;span style="color:#f92672">.&lt;/span>capitalize
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">salute&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> puts &lt;span style="color:#e6db74">&amp;#34;Hello &lt;/span>&lt;span style="color:#e6db74">#{&lt;/span>@name&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>g &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">Greeter&lt;/span>&lt;span style="color:#f92672">.&lt;/span>new(&lt;span style="color:#e6db74">&amp;#34;world&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>g&lt;span style="color:#f92672">.&lt;/span>salute
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-makefile" data-lang="makefile">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Makefile
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>BUILDDIR &lt;span style="color:#f92672">=&lt;/span> _build
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>EXTRAS &lt;span style="color:#f92672">?=&lt;/span> &lt;span style="color:#66d9ef">$(&lt;/span>BUILDDIR&lt;span style="color:#66d9ef">)&lt;/span>/extras
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">.PHONY&lt;/span>&lt;span style="color:#f92672">:&lt;/span> main clean
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">main&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> @echo &lt;span style="color:#e6db74">&amp;#34;Building main facility...&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> build_main &lt;span style="color:#66d9ef">$(&lt;/span>BUILDDIR&lt;span style="color:#66d9ef">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">clean&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> rm -rf &lt;span style="color:#66d9ef">$(&lt;/span>BUILDDIR&lt;span style="color:#66d9ef">)&lt;/span>/*
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ch&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> make(&lt;span style="color:#66d9ef">chan&lt;/span> &lt;span style="color:#66d9ef">float64&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ch&lt;/span> &lt;span style="color:#f92672">&amp;lt;-&lt;/span> &lt;span style="color:#ae81ff">1.0e10&lt;/span> &lt;span style="color:#75715e">// magic number
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">x&lt;/span>, &lt;span style="color:#a6e22e">ok&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#f92672">&amp;lt;-&lt;/span> &lt;span style="color:#a6e22e">ch&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">defer&lt;/span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">`exitting now\`&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">go&lt;/span> println(len(&lt;span style="color:#e6db74">&amp;#34;hello world!&amp;#34;&lt;/span>))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#!/bin/bash
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">###### CONFIG&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ACCEPTED_HOSTS&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/root/.hag_accepted.conf&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>BE_VERBOSE&lt;span style="color:#f92672">=&lt;/span>false
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">[&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$UID&lt;span style="color:#e6db74">&amp;#34;&lt;/span> -ne &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo &lt;span style="color:#e6db74">&amp;#34;Superuser rights required&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> exit &lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>genApacheConf&lt;span style="color:#f92672">(){&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo -e &lt;span style="color:#e6db74">&amp;#34;# Host &lt;/span>&lt;span style="color:#e6db74">${&lt;/span>HOME_DIR&lt;span style="color:#e6db74">}&lt;/span>$1&lt;span style="color:#e6db74">/&lt;/span>$2&lt;span style="color:#e6db74"> :&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ini" data-lang="ini">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">; boilerplate&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">[package]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;some_name&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">authors&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">[&amp;#34;Author&amp;#34;]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">description&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;This is \&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">a description&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">[[lib]]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">${NAME}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">default&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">True&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">auto&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">no&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">counter&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">1_000&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Elements</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/elements/</link><pubDate>Tue, 24 Dec 2013 23:29:08 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/elements/</guid><description>&lt;p>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don&amp;rsquo;t forget to redefine the style by yourself.&lt;/p>
+&lt;hr>
+&lt;h1 id="heading-1">Heading 1&lt;/h1>
+&lt;h2 id="heading-2">Heading 2&lt;/h2>
+&lt;h3 id="heading-3">Heading 3&lt;/h3>
+&lt;h4 id="heading-4">Heading 4&lt;/h4>
+&lt;h5 id="heading-5">Heading 5&lt;/h5>
+&lt;h6 id="heading-6">Heading 6&lt;/h6>
+&lt;hr>
+&lt;h2 id="paragraph">Paragraph&lt;/h2>
+&lt;p>Lorem ipsum dolor sit amet, &lt;a href="">test link&lt;/a> consectetur adipiscing elit. &lt;strong>Strong text&lt;/strong> pellentesque ligula commodo viverra vehicula. &lt;em>Italic text&lt;/em> at ullamcorper enim. Morbi a euismod nibh. &lt;!-- raw HTML omitted -->Underline text&lt;!-- raw HTML omitted --> non elit nisl. &lt;del>Deleted text&lt;/del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.&lt;/p>
+&lt;p>Interdum et malesuada fames ac ante ipsum primis in faucibus. &lt;code>Sed erat diam&lt;/code>, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.&lt;/p>
+&lt;blockquote>
+&lt;p>Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.&lt;/p>
+&lt;/blockquote>
+&lt;p>Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.&lt;/p>
+&lt;h2 id="list-types">List Types&lt;/h2>
+&lt;h3 id="definition-list-dl">Definition List (dl)&lt;/h3>
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="ordered-list-ol">Ordered List (ol)&lt;/h3>
+&lt;ol>
+&lt;li>List Item 1&lt;/li>
+&lt;li>List Item 2&lt;/li>
+&lt;li>List Item 3&lt;/li>
+&lt;/ol>
+&lt;h3 id="unordered-list-ul">Unordered List (ul)&lt;/h3>
+&lt;ul>
+&lt;li>List Item 1&lt;/li>
+&lt;li>List Item 2&lt;/li>
+&lt;li>List Item 3&lt;/li>
+&lt;/ul>
+&lt;h3 id="checkbox-list-ul">Checkbox List (ul)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> List Item 1 unchecked&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> List Item 2 checked&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> List Item 3 checked&lt;/li>
+&lt;/ul>
+&lt;h2 id="table">Table&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Table Header 1&lt;/th>
+&lt;th>Table Header 2&lt;/th>
+&lt;th>Table Header 3&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Division 1&lt;/td>
+&lt;td>Division 2&lt;/td>
+&lt;td>Division 3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Division 1&lt;/td>
+&lt;td>Division 2&lt;/td>
+&lt;td>Division 3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Division 1&lt;/td>
+&lt;td>Division 2&lt;/td>
+&lt;td>Division 3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="misc-stuff---abbr-acronym-sub-sup-kbd-etc">Misc Stuff - abbr, acronym, sub, sup, kbd, etc.&lt;/h2>
+&lt;p>Lorem &lt;!-- raw HTML omitted -->superscript&lt;!-- raw HTML omitted --> dolor &lt;!-- raw HTML omitted -->subscript&lt;!-- raw HTML omitted --> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. &lt;!-- raw HTML omitted -->cite&lt;!-- raw HTML omitted -->. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. &lt;!-- raw HTML omitted -->NBA&lt;!-- raw HTML omitted --> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. &lt;!-- raw HTML omitted -->AVE&lt;!-- raw HTML omitted -->. Use &lt;!-- raw HTML omitted -->Crtl&lt;!-- raw HTML omitted --> + &lt;!-- raw HTML omitted -->C&lt;!-- raw HTML omitted --> to stop.&lt;/p></description></item><item><title>Markdown Style test</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/markdown/</guid><description>&lt;p>This post is originated from &lt;a href="https://gist.github.com/apackeer/4159268">here&lt;/a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p>
+&lt;hr>
+&lt;h2 id="headers">Headers&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># H1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## H2
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### H3
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#### H4
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">##### H5
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">###### H6
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Alternatively, for H1 and H2, an underline-ish style:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Alt-H1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>======
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Alt-H2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>------
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;p>Alternatively, for H1 and H2, an underline-ish style:&lt;/p>
+&lt;h1 id="alt-h1">Alt-H1&lt;/h1>
+&lt;h2 id="alt-h2">Alt-H2&lt;/h2>
+&lt;h2 id="emphasis">Emphasis&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>Emphasis, aka italics, with &lt;span style="font-style:italic">*asterisks*&lt;/span> or &lt;span style="font-style:italic">_underscores_&lt;/span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Strong emphasis, aka bold, with &lt;span style="font-weight:bold">**asterisks**&lt;/span> or &lt;span style="font-weight:bold">__underscores__&lt;/span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Combined emphasis with &lt;span style="font-weight:bold">**asterisks and _underscores_**&lt;/span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Strikethrough uses two tildes. &lt;span style="color:#f92672">~~Scratch this.~~&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Emphasis, aka italics, with &lt;em>asterisks&lt;/em> or &lt;em>underscores&lt;/em>.&lt;/p>
+&lt;p>Strong emphasis, aka bold, with &lt;strong>asterisks&lt;/strong> or &lt;strong>underscores&lt;/strong>.&lt;/p>
+&lt;p>Combined emphasis with &lt;strong>asterisks and &lt;em>underscores&lt;/em>&lt;/strong>.&lt;/p>
+&lt;p>Strikethrough uses two tildes. &lt;del>Scratch this.&lt;/del>&lt;/p>
+&lt;h2 id="lists">Lists&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> First ordered list item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2.&lt;/span> Another item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">*&lt;/span> Unordered sub-list.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> Actual numbers don&amp;#39;t matter, just that it&amp;#39;s a number
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">1.&lt;/span> Ordered sub-list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">4.&lt;/span> And another item.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&amp;#39;ll use three here to also align the raw Markdown).
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> To have a line break without a paragraph, you will need to use two trailing spaces.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Note that this line is separate, but within the same paragraph.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Unordered list can use asterisks
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Or minuses
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>+ Or pluses
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Paragraph In unordered list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> For example like this.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Common Paragraph with some text.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>And more text.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>First ordered list item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Unordered sub-list.&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>
+&lt;p>Actual numbers don&amp;rsquo;t matter, just that it&amp;rsquo;s a number&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ordered sub-list&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>And another item.&lt;/p>
+&lt;p>You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&amp;rsquo;ll use three here to also align the raw Markdown).&lt;/p>
+&lt;p>To have a line break without a paragraph, you will need to use two trailing spaces.&lt;br>
+Note that this line is separate, but within the same paragraph.&lt;br>
+(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Unordered list can use asterisks&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Or minuses&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Or pluses&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>
+&lt;p>Paragraph In unordered list&lt;/p>
+&lt;p>For example like this.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Common Paragraph with some text.
+And more text.&lt;/p>
+&lt;h2 id="inline-html">Inline HTML&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;To reboot your computer, press &amp;lt;&lt;span style="color:#f92672">kbd&lt;/span>&amp;gt;ctrl&amp;lt;/&lt;span style="color:#f92672">kbd&lt;/span>&amp;gt;+&amp;lt;&lt;span style="color:#f92672">kbd&lt;/span>&amp;gt;alt&amp;lt;/&lt;span style="color:#f92672">kbd&lt;/span>&amp;gt;+&amp;lt;&lt;span style="color:#f92672">kbd&lt;/span>&amp;gt;del&amp;lt;/&lt;span style="color:#f92672">kbd&lt;/span>&amp;gt;.&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">dl&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">dt&lt;/span>&amp;gt;Definition list&amp;lt;/&lt;span style="color:#f92672">dt&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">dd&lt;/span>&amp;gt;Is something people use sometimes.&amp;lt;/&lt;span style="color:#f92672">dd&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">dt&lt;/span>&amp;gt;Markdown in HTML&amp;lt;/&lt;span style="color:#f92672">dt&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">dd&lt;/span>&amp;gt;Does &lt;span style="font-style:italic">*not*&lt;/span> work &lt;span style="font-weight:bold">**very**&lt;/span> well. Use HTML &amp;lt;&lt;span style="color:#f92672">em&lt;/span>&amp;gt;tags&amp;lt;/&lt;span style="color:#f92672">em&lt;/span>&amp;gt;.&amp;lt;/&lt;span style="color:#f92672">dd&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">dl&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
+&lt;pre>&lt;code>&amp;lt;dt&amp;gt;Markdown in HTML&amp;lt;/dt&amp;gt;
+&amp;lt;dd&amp;gt;Does *not* work **very** well. Use HTML &amp;lt;em&amp;gt;tags&amp;lt;/em&amp;gt;.&amp;lt;/dd&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="links">Links&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">I&amp;#39;m an inline-style link&lt;/span>](&lt;span style="color:#a6e22e">https://www.google.com&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">I&amp;#39;m an inline-style link with title&lt;/span>](&lt;span style="color:#a6e22e">https://www.google.com &amp;#34;Google&amp;#39;s Homepage&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[I&amp;#39;m a reference-style link][Arbitrary case-insensitive reference text]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">I&amp;#39;m a relative reference to a repository file&lt;/span>](&lt;span style="color:#a6e22e">../blob/master/LICENSE&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[You can use numbers for reference-style link definitions][1]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Or leave it empty and use the [link text itself]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Some text to show that the reference links can follow later.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[arbitrary case-insensitive reference text]: https://hexo.io
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1]: https://hexo.io/docs/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[link text itself]: https://hexo.io/api/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://www.google.com">I&amp;rsquo;m an inline-style link&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.google.com" title="Google's Homepage">I&amp;rsquo;m an inline-style link with title&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://hexo.io">I&amp;rsquo;m a reference-style link&lt;/a>&lt;/p>
+&lt;p>&lt;a href="../blob/master/LICENSE">I&amp;rsquo;m a relative reference to a repository file&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://hexo.io/docs/">You can use numbers for reference-style link definitions&lt;/a>&lt;/p>
+&lt;p>Or leave it empty and use the &lt;a href="https://hexo.io/api/">link text itself&lt;/a>&lt;/p>
+&lt;p>Some text to show that the reference links can follow later.&lt;/p>
+&lt;h2 id="images">Images&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>hover to see the title text:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Inline-style:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">alt text&lt;/span>](&lt;span style="color:#a6e22e">https://hexo.io/icon/favicon-196x196.png &amp;#34;Logo Title Text 1&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Reference-style:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![alt text][logo]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[logo]: https://hexo.io/icon/favicon-196x196.png &amp;#34;Logo Title Text 2&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>hover to see the title text:&lt;/p>
+&lt;p>Inline-style:&lt;/p>
+&lt;p>&lt;img src="https://hexo.io/icon/favicon-196x196.png" alt="alt text" title="Logo Title Text 1">&lt;/p>
+&lt;p>Reference-style:
+&lt;img src="https://hexo.io/icon/favicon-196x196.png" alt="alt text" title="Logo Title Text 2">&lt;/p>
+&lt;h2 id="code-and-syntax-highlighting">Code and Syntax Highlighting&lt;/h2>
+&lt;p>Inline &lt;code>code&lt;/code> has &lt;code>back-ticks around&lt;/code> it.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">s&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;JavaScript syntax highlighting&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">alert&lt;/span>(&lt;span style="color:#a6e22e">s&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>s &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Python syntax highlighting&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print s
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>No language indicated, so no syntax highlighting.
+But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
+&lt;/code>&lt;/pre>&lt;h2 id="tables">Tables&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>| |ASCII |HTML |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|----------------|-------------------------------|-----------------------------|
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|Single backticks|`&amp;#39;Isn&amp;#39;t this fun?&amp;#39;` |&amp;#39;Isn&amp;#39;t this fun?&amp;#39; |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|Quotes |`&amp;#34;Isn&amp;#39;t this fun?&amp;#34;` |&amp;#34;Isn&amp;#39;t this fun?&amp;#34; |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>|Dashes |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>ASCII&lt;/th>
+&lt;th>HTML&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Single backticks&lt;/td>
+&lt;td>&lt;code>'Isn't this fun?'&lt;/code>&lt;/td>
+&lt;td>&amp;lsquo;Isn&amp;rsquo;t this fun?&amp;rsquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Quotes&lt;/td>
+&lt;td>&lt;code>&amp;quot;Isn't this fun?&amp;quot;&lt;/code>&lt;/td>
+&lt;td>&amp;ldquo;Isn&amp;rsquo;t this fun?&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Dashes&lt;/td>
+&lt;td>&lt;code>-- is en-dash, --- is em-dash&lt;/code>&lt;/td>
+&lt;td>&amp;ndash; is en-dash, &amp;mdash; is em-dash&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Colons can be used to align columns.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>| Tables | Are | Cool |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| ------------- |:-------------:| -----:|
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| col 3 is | right-aligned | |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| col 2 is | centered | |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| zebra stripes | are neat |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Tables&lt;/th>
+&lt;th style="text-align:center">Are&lt;/th>
+&lt;th style="text-align:right">Cool&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>col 3 is&lt;/td>
+&lt;td style="text-align:center">right-aligned&lt;/td>
+&lt;td style="text-align:right">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>col 2 is&lt;/td>
+&lt;td style="text-align:center">centered&lt;/td>
+&lt;td style="text-align:right">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>zebra stripes&lt;/td>
+&lt;td style="text-align:center">are neat&lt;/td>
+&lt;td style="text-align:right">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>The outer pipes (|) are optional, and you don&amp;rsquo;t need to make the raw Markdown line up prettily. You can also use inline Markdown.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>Markdown | Less | Pretty
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--- | --- | ---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">*Still*&lt;/span> | &lt;span style="color:#e6db74">`renders`&lt;/span> | &lt;span style="font-weight:bold">**nicely**&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1 | 2 | 3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Markdown&lt;/th>
+&lt;th>Less&lt;/th>
+&lt;th>Pretty&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>Still&lt;/em>&lt;/td>
+&lt;td>&lt;code>renders&lt;/code>&lt;/td>
+&lt;td>&lt;strong>nicely&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>You can find more information about &lt;strong>LaTeX&lt;/strong> mathematical expressions &lt;a href="https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="blockquotes">Blockquotes&lt;/h2>
+&lt;blockquote>
+&lt;p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.&lt;/p>
+&lt;/blockquote>
+&lt;p>Quote break.&lt;/p>
+&lt;blockquote>
+&lt;p>This is a very long line that will still be quoted properly when it wraps. Oh boy let&amp;rsquo;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em>put&lt;/em> &lt;strong>Markdown&lt;/strong> into a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="horizontal-rule">Horizontal Rule&lt;/h2>
+&lt;p>Three or more&amp;hellip;&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Hyphens
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">**&lt;/span>*
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Asterisks
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>___
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Underscores
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>Hyphens&lt;/p>
+&lt;hr>
+&lt;p>Asterisks&lt;/p>
+&lt;hr>
+&lt;p>Underscores&lt;/p>
+&lt;h2 id="line-breaks">Line Breaks&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>Here&amp;#39;s a line for us to start with.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This line is separated from the one above by two newlines, so it will be a &lt;span style="font-style:italic">*separate paragraph*&lt;/span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This line is also a separate paragraph, but...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This line is only separated by a single newline, so it&amp;#39;s a separate line in the &lt;span style="font-style:italic">*same paragraph*&lt;/span>.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here&amp;rsquo;s a line for us to start with.&lt;/p>
+&lt;p>This line is separated from the one above by two newlines, so it will be a &lt;em>separate paragraph&lt;/em>.&lt;/p>
+&lt;p>This line is also a separate paragraph, but&amp;hellip;
+This line is only separated by a single newline, so it&amp;rsquo;s a separate line in the &lt;em>same paragraph&lt;/em>.&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>This is a regular paragraph.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">table&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">tr&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;Foo&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">tr&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">table&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This is another regular paragraph.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This is a regular paragraph.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>This is another regular paragraph.&lt;/p>
+&lt;h2 id="youtube-videos">Youtube videos&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=ARted4RniaU
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://img.youtube.com/vi/ARted4RniaU/0.jpg&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;IMAGE ALT TEXT HERE&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;240&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;180&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">border&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;10&amp;#34;&lt;/span> /&amp;gt;&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Pure markdown version:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">![IMAGE ALT TEXT HERE&lt;/span>](&lt;span style="color:#a6e22e">https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;/span>)](https://www.youtube.com/watch?v=ARted4RniaU)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Pure markdown version:&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=ARted4RniaU">&lt;img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg" alt="IMAGE ALT TEXT HERE">&lt;/a>&lt;/p></description></item></channel></rss>

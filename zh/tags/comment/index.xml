@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comment on LADDER</title><link>https://hugo-ladder.pages.dev/zh/tags/comment/</link><description>Recent content in comment on LADDER</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 14 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/zh/tags/comment/index.xml" rel="self" type="application/rss+xml"/><item><title>评论功能</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</guid><description>&lt;p>本文关于如何集成评论功能，在文章末尾或者留言板中显示评论信息。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comment on LADDER</title><link>https://hugo-ladder.pages.dev/zh/tags/comment/</link><description>Recent content in comment on LADDER</description><generator>Hugo -- gohugo.io</generator><copyright>2023 GuangzhengLi All rights reserved</copyright><lastBuildDate>Sun, 14 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/zh/tags/comment/index.xml" rel="self" type="application/rss+xml"/><item><title>评论功能</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</guid><description>&lt;p>本文关于如何集成评论功能，在文章末尾或者留言板中显示评论信息。&lt;/p>
+&lt;h3 id="comment-systems">Comment Systems&lt;/h3>
+&lt;p>在文章末尾或者留言板中显示评论信息。&lt;/p>
+&lt;h4 id="giscus">Giscus&lt;/h4>
+&lt;p>Follow &lt;a href="https://giscus.app/">these steps&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">comments&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">giscus&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">username/reponame&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo_id&lt;/span>: &lt;span style="color:#ae81ff">Rid&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">category&lt;/span>: &lt;span style="color:#ae81ff">Announcements&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">category_id&lt;/span>: &lt;span style="color:#ae81ff">DIC_id&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">mapping&lt;/span>: &lt;span style="color:#ae81ff">pathname&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">position&lt;/span>: &lt;span style="color:#ae81ff">top&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">lang&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span> &lt;span style="color:#75715e"># pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="utterances">Utterances&lt;/h4>
+&lt;p>Follow &lt;a href="https://utteranc.es/">these steps&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">comments&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">utteranc&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">username/reponame&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">issueTerm&lt;/span>: &lt;span style="color:#ae81ff">pathname&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

@@ -1,2 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>analytics on LADDER</title><link>https://hugo-ladder.pages.dev/tags/analytics/</link><description>Recent content in analytics on LADDER</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 14 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/tags/analytics/index.xml" rel="self" type="application/rss+xml"/><item><title>Analytics</title><link>https://hugo-ladder.pages.dev/blog/analytics/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/blog/analytics/</guid><description>&lt;p>This article is about how to integrate website statistics analysis.&lt;/p></description></item><item><title>How to integrate umami to your website for free</title><link>https://hugo-ladder.pages.dev/blog/how-to-integrate-umami-for-free-to-blog-site/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/blog/how-to-integrate-umami-for-free-to-blog-site/</guid><description>&lt;p>This article is about how to integrate &lt;a href="https://umami.is/">umami&lt;/a> website analytics to your website for free. The database use &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a> with 500M storage limit provided by &lt;a href="https://app.supabase.com/">supabase&lt;/a>.&lt;/p>
-&lt;p>The &lt;a href="https://umami.is/">umami&lt;/a> service is hosted with &lt;a href="https://vercel.com/">vercel&lt;/a>. Thanks to the excellent service capabilities of cloud vendors, you can integrate &lt;em>umami&lt;/em> in less than 10 minutes. You can see the umami dashboard by clicking the &lt;a href="https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli">Dashboard&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>analytics on LADDER</title><link>https://hugo-ladder.pages.dev/tags/analytics/</link><description>Recent content in analytics on LADDER</description><generator>Hugo -- gohugo.io</generator><managingEditor>iguangzhengli@gmail.com (Guangzheng Li)</managingEditor><webMaster>iguangzhengli@gmail.com (Guangzheng Li)</webMaster><copyright>2023 GuangzhengLi All rights reserved</copyright><lastBuildDate>Sun, 14 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/tags/analytics/index.xml" rel="self" type="application/rss+xml"/><item><title>Analytics</title><link>https://hugo-ladder.pages.dev/blog/analytics/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/blog/analytics/</guid><description>&lt;p>This article is about how to integrate website statistics analysis.&lt;/p>
+&lt;h2 id="analytics">Analytics&lt;/h2>
+&lt;h2 id="google-analytics">Google Analytics&lt;/h2>
+&lt;p>Follow &lt;a href="https://gohugo.io/templates/internal/#configure-google-analytics">these steps&lt;/a>.&lt;/p>
+&lt;h3 id="google-tag-manager">Google Tag Manager&lt;/h3>
+&lt;p>Follow &lt;a href="https://developers.google.com/tag-manager">these steps&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">analytics&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">google&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">SiteVerificationTag&lt;/span>: &lt;span style="color:#ae81ff">gid&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="umami-analytics">Umami Analytics&lt;/h3>
+&lt;p>Follow &lt;a href="https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/">these steps&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">analytics&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">umami&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website_id&lt;/span>: &lt;span style="color:#ae81ff">data-website-id&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>How to integrate umami to your website for free</title><link>https://hugo-ladder.pages.dev/blog/how-to-integrate-umami-for-free-to-blog-site/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/blog/how-to-integrate-umami-for-free-to-blog-site/</guid><description>&lt;p>This article is about how to integrate &lt;a href="https://umami.is/">umami&lt;/a> website analytics to your website for free. The database use &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a> with 500M storage limit provided by &lt;a href="https://app.supabase.com/">supabase&lt;/a>.&lt;/p>
+&lt;p>The &lt;a href="https://umami.is/">umami&lt;/a> service is hosted with &lt;a href="https://vercel.com/">vercel&lt;/a>. Thanks to the excellent service capabilities of cloud vendors, you can integrate &lt;em>umami&lt;/em> in less than 10 minutes. You can see the umami dashboard by clicking the &lt;a href="https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli">Dashboard&lt;/a>.&lt;/p>
+&lt;h2 id="create-a-database">Create a database&lt;/h2>
+&lt;p>The database use &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a> with 500M storage limit provided by &lt;a href="https://app.supabase.com/">supabase&lt;/a>. You can create a supabase account, click &lt;code>new project&lt;/code>, and enter the database passowrd to create an ProgresSQL database service.&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/cN3Zg4.png" alt="cN3Zg4">&lt;/p>
+&lt;p>It will take a few minutes to create the database service, and you can get the &lt;code>DATABASE_URL&lt;/code> after it&amp;rsquo;s done.&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/image-20220815182141638.png" alt="image-20220815182141638">&lt;/p>
+&lt;h2 id="hosting-umami">Hosting umami&lt;/h2>
+&lt;p>The &lt;a href="https://umami.is/">umami&lt;/a> service is hosted with &lt;a href="https://vercel.com/">vercel&lt;/a>, Once you have created the database instance, you can deploy the umami service with click deploy button in the &lt;a href="https://umami.is/docs/running-on-vercel">Running on Vercel&lt;/a> document.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Fork the &lt;a href="https://github.com/mikecao/umami">https://github.com/mikecao/umami&lt;/a> project to your GitHub account.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create an account on Vercel.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>From the dashboard page click Import Project then specify the URL to your fork of the project on GitHub.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add the required environment variables to your Vercel project. These values are defined in the Configure umami step from Install.&lt;/p>
+&lt;ol>
+&lt;li>DATABASE_URL: Connection string for your database. This is the only required variable.&lt;/li>
+&lt;li>TRACKER_SCRIPT_NAME: Allows you to assign a custom name to the tracker script different from the default &lt;code>umami&lt;/code>. This is to help you avoid some ad-blockers. I used &lt;code>hugo-ladder&lt;/code> on this project.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Enter &lt;code>yarn build &amp;amp;&amp;amp; yarn update-db&lt;/code> to the &lt;code>BUILD COMMAND&lt;/code>, which will migrate the tables of umami to database automatically.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Deploy and visit your application at &lt;!-- raw HTML omitted -->.vercel.app.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Follow the Getting started guide starting from the Login step and be sure to change the default password.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/gePzXI.png" alt="gePzXI">&lt;/p>
+&lt;p>Of course, if you want to import tables yourself, you can also get the tables from here &lt;a href="https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql">https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql&lt;/a>.&lt;/p>
+&lt;h2 id="umami-configuration">umami configuration&lt;/h2>
+&lt;p>After deploying umami in vercel you will get a &lt;code>&amp;lt;deploy-id&amp;gt;.vercel.app&lt;/code> address which login with the default account: &lt;em>admin&lt;/em> and password: &lt;em>umami&lt;/em>.&lt;/p>
+&lt;p>You can change the default password and &lt;code>Add webiste&lt;/code>, enter the &lt;code>Name&lt;/code> and &lt;code>Domain&lt;/code>, and click &lt;code>enable share URL&lt;/code> so that anyone can access the dashboard.&lt;/p>
+&lt;p>Then you can get &lt;code>data-website-id&lt;/code> and &lt;code>src&lt;/code> values by click &lt;code>Get tracking code&lt;/code>，enter the value to the &lt;code>hugo-ladder&lt;/code> configuration &lt;code>params.analytics.umami.website_id&lt;/code> , &lt;code>params.analytics.umami.url&lt;/code>.&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/OZcU7U.png" alt="OZcU7U">&lt;/p>
+&lt;p>In the end, you can get the website statistics analytics dashboard.🎉🎉🎉&lt;/p>
+&lt;p>Link to original article: &lt;a href="https://guangzhengli.com/en/blog/en/how-to-integrate-umami-for-free-to-blog-site/">https://guangzhengli.com/en/blog/en/how-to-integrate-umami-for-free-to-blog-site/&lt;/a>&lt;/p></description></item></channel></rss>
