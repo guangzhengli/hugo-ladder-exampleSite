@@ -8,6 +8,10 @@ homepage: 'https://hugo-ladder.pages.dev'
 defaultContentLanguage: 'en'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
+copyright: "2023 GuangzhengLi All rights reserved"
+Author:
+  name: "Guangzheng Li"
+  email: "iguangzhengli@gmail.com"
 menu:
   main:
     - name: Blog
