@@ -8,6 +8,7 @@ homepage: 'https://hugo-ladder.pages.dev'
 defaultContentLanguage: 'en'
 googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
+hasCJKLanguage: true
 copyright: "2023 GuangzhengLi All rights reserved"
 Author:
   name: "Guangzheng Li"
