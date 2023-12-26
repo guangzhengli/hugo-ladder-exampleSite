@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on LADDER</title><link>https://hugo-ladder.pages.dev/zh/tags/hugo/</link><description>Recent content in hugo on LADDER</description><generator>Hugo -- gohugo.io</generator><copyright>2023 GuangzhengLi All rights reserved</copyright><lastBuildDate>Sat, 20 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>使用手册</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/ladder-guide/</link><pubDate>Sat, 20 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/ladder-guide/</guid><description>&lt;p>本文是所有教程的链接。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on LADDER</title><link>https://hugo-ladder.pages.dev/zh/tags/hugo/</link><description>Recent content in hugo on LADDER</description><generator>Hugo -- gohugo.io</generator><language>zh</language><managingEditor>iguangzhengli@gmail.com (Guangzheng Li)</managingEditor><webMaster>iguangzhengli@gmail.com (Guangzheng Li)</webMaster><copyright>2023 GuangzhengLi All rights reserved</copyright><lastBuildDate>Sat, 20 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://hugo-ladder.pages.dev/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>使用手册</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/ladder-guide/</link><pubDate>Sat, 20 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/ladder-guide/</guid><description>&lt;p>本文是所有教程的链接。&lt;/p>
 &lt;h2 id="basic-usage">Basic Usage&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://hugo-ladder.pages.dev/zh/blog/zh/quick-start/">Quick Start&lt;/a>&lt;/li>
@@ -15,157 +15,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://guangzhengli.com/blog/zh/how-to-create-your-blog-for-free-in-10min/">How to create your blog for free in 10min&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://guangzhengli.com/blog/zh/how-to-create-your-blog-for-free-by-hugo-ladder-in-30min/">how-to-create-your-blog-for-free-by-hugo-ladder-in-30min&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>多语言支持</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/multi-language/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/multi-language/</guid><description>&lt;p>本文是关于多语言支持。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="#available-languages">Available Languages&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#configure-languages">Configure languages&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#translation-file-example">Translation File Example&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="available-languages">Available Languages&lt;/h2>
-&lt;p>目前主题支持这些语言:&lt;/p>
-&lt;ul>
-&lt;li>英语&lt;/li>
-&lt;li>简体中文&lt;/li>
-&lt;/ul>
-&lt;h2 id="configure-languages">Configure languages&lt;/h2>
-&lt;p>跟随 &lt;a href="https://gohugo.io/content-management/multilingual/#configure-languages">this Hugo documentation page&lt;/a> 给你的网站配置语言。&lt;/p>
-&lt;h2 id="translation-file-example">Translation File Example&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">blog&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;blog&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;blog&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">tags&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;tag&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;tags&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">archive&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;archive&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;archive&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">series&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;series&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;series&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">reading_time&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;One minute&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} min&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">word_count&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;one word&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} words&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">related_resources&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Related Resources&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">featured_posts&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Featured Posts&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Featured Posts&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">blog&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;文章&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;文章&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">tags&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;分类&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;分类&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">archive&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;历史文章&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;历史文章&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">series&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;系列文章&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;系列文章&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">reading_time&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;1 分钟&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} 分钟&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">word_count&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;字&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} 字&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">related_resources&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;相关系列文章推荐&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;相关系列文章推荐&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">featured_posts&lt;/span>]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;推荐阅读&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;推荐阅读&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>快速安装使用</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/quick-start/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/quick-start/</guid><description>&lt;p>本文是关于如何快速安装使用本主题。&lt;/p>
-&lt;h2 id="how-to-install">how to install&lt;/h2>
-&lt;p>在这个仓库中点击 &lt;code>Use this template&lt;/code> 创建博客。 &lt;a href="https://github.com/guangzhengli/hugo-ladder-exampleSite">https://github.com/guangzhengli/hugo-ladder-exampleSite&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png" alt="4dmtph">&lt;/p>
-&lt;p>点击后输入 &lt;code>username.github.io&lt;/code> 创建(GitHub Pages)仓库 &lt;strong>用你的 github 账号名称代替 username&lt;/strong>&lt;/p>
-&lt;p>接着配置你的 GitHub pages 配置信息，如下图所示:&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/nsrExo.png" alt="nsrExo">&lt;/p>
-&lt;p>🎉🎉🎉 打开你的浏览器，输入: &lt;a href="https://username.github.io">https://username.github.io&lt;/a> 🎉🎉🎉&lt;/p></description></item><item><title>评论功能</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</guid><description>&lt;p>本文关于如何集成评论功能，在文章末尾或者留言板中显示评论信息。&lt;/p>
-&lt;h3 id="comment-systems">Comment Systems&lt;/h3>
-&lt;p>在文章末尾或者留言板中显示评论信息。&lt;/p>
-&lt;h4 id="giscus">Giscus&lt;/h4>
-&lt;p>Follow &lt;a href="https://giscus.app/">these steps&lt;/a>.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">comments&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">giscus&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">username/reponame&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo_id&lt;/span>: &lt;span style="color:#ae81ff">Rid&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">category&lt;/span>: &lt;span style="color:#ae81ff">Announcements&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">category_id&lt;/span>: &lt;span style="color:#ae81ff">DIC_id&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">mapping&lt;/span>: &lt;span style="color:#ae81ff">pathname&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">position&lt;/span>: &lt;span style="color:#ae81ff">top&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">lang&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span> &lt;span style="color:#75715e"># pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="utterances">Utterances&lt;/h4>
-&lt;p>Follow &lt;a href="https://utteranc.es/">these steps&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">comments&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">utteranc&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">username/reponame&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">issueTerm&lt;/span>: &lt;span style="color:#ae81ff">pathname&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>如何零成本给博客集成 umami 数据统计分析功能</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/</guid><description>&lt;p>本篇文章介绍如何零成本给博客或者网站集成 &lt;a href="https://umami.is/">umami&lt;/a> 统计功能。数据库用的是 &lt;a href="https://app.supabase.com/">supabase&lt;/a> 提供的有限额的 &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a>，不过免费提供的 500M 对于 &lt;a href="https://umami.is/">umami&lt;/a> 来讲已经足够了。&lt;/p>
-&lt;p>托管 &lt;a href="https://umami.is/">umami&lt;/a> 服务用的是 &lt;a href="https://vercel.com/">vercel&lt;/a>。得益于现在的云厂商优秀的服务能力，你可以在 10 分钟内集成好 &lt;em>umami&lt;/em>。可以点击 &lt;a href="https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli">数据统计看板&lt;/a> 查看最终效果。&lt;/p>
-&lt;h2 id="创建数据库">创建数据库&lt;/h2>
-&lt;p>数据库用的是 &lt;a href="https://app.supabase.com/">supabase&lt;/a> 提供的有限额的 &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a> 数据库，创建一个 supabase 账号，新建一个项目，输入 Datebase password 即可创建数据库服务。&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/cN3Zg4.png" alt="cN3Zg4">&lt;/p>
-&lt;p>创建可能会话费几分钟时间，创建完成后只需要拿到 &lt;code>DATABASE_URL&lt;/code> 即可。&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/image-20220815182141638.png" alt="image-20220815182141638">&lt;/p>
-&lt;h2 id="托管-umami">托管 umami&lt;/h2>
-&lt;p>托管 &lt;a href="https://umami.is/">umami&lt;/a> 服务用的是 &lt;a href="https://vercel.com/">vercel&lt;/a>。创建好数据库实例之后，可以通过 Vercel 一键部署 umami 服务了。访问 &lt;a href="https://umami.is/">umami 官方文档&lt;/a> 的 &lt;a href="https://umami.is/docs/running-on-vercel">Running on Vercel&lt;/a> 模块，有操作说明与一键部署脚本。&lt;/p>
-&lt;p>首先我们登录 GitHub 账号， &lt;code>fork&lt;/code> umami (&lt;a href="https://github.com/umami-software/umami">https://github.com/umami-software/umami&lt;/a>) 项目。&lt;/p>
-&lt;p>登录 &lt;a href="https://vercel.com/">vercel&lt;/a> ，创建一个的账号，建议使用 GitHub 账号注册登录，在 &lt;code>new project&lt;/code> 中选择 &lt;code>import&lt;/code> 你刚刚 &lt;code>fork&lt;/code> 的项目。&lt;/p>
-&lt;p>之后填写环境变量，这里我们需要填写两个环境变量&lt;/p>
-&lt;ul>
-&lt;li>DATABASE_URL：在创建数据库中拿到的 DATABASE_URL&lt;/li>
-&lt;li>TRACKER_SCRIPT_NAME： 这里默认的 &lt;code>tracker_script_name&lt;/code> 可能会导致部分 &lt;code>AdBlock&lt;/code> 拦截请求，损失一部分的访问数据，所以这里我填的是 &lt;code>hugo-ladder&lt;/code>。&lt;/li>
-&lt;/ul>
-&lt;p>最后在 Build 阶段， &lt;code>build command&lt;/code> 记得填写 &lt;code>yarn build &amp;amp;&amp;amp; yarn update-db&lt;/code>，这样的话会自动 migrate 数据库的表。无需自己手动导入。&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/gePzXI.png" alt="gePzXI">&lt;/p>
-&lt;p>当然如果你想自己导入的话，也可以直接从这里 &lt;a href="https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql">https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql&lt;/a> 获取需要的表。&lt;/p>
-&lt;h2 id="配置-umami">配置 umami&lt;/h2>
-&lt;p>在 vercel 部署完成 umami 后会得到一个 &lt;code>&amp;lt;deploy-id&amp;gt;.vercel.app&lt;/code> ，我们访问它，默认的账号密码是 &lt;strong>admin&lt;/strong> 和 &lt;strong>umami&lt;/strong>。&lt;/p>
-&lt;p>完成基础帐号配置后，点击侧边栏网站 Tab，点击添加网站。填写网站基本信息，可以勾选 &lt;code>enable share URL&lt;/code>，这样任何人都可以访问这个数据看板。&lt;/p>
-&lt;p>我们拿到对应的 &lt;code>data-website-id&lt;/code> 和 &lt;code>src&lt;/code> ，填入主题配置中的 &lt;code>params.analytics.umami.website_id&lt;/code> 和 &lt;code>params.analytics.umami.url&lt;/code> 即可。&lt;/p>
-&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/OZcU7U.png" alt="OZcU7U">&lt;/p>
-&lt;p>最终，我们可以得到本站数据统计看板的功能🎉🎉🎉&lt;/p>
-&lt;p>原文链接: &lt;a href="https://guangzhengli.com/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/">https://guangzhengli.com/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/&lt;/a>&lt;/p></description></item><item><title>网站数据统计分析</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/analytics/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/analytics/</guid><description>&lt;p>本文关于如何集成网站数据统计分析。&lt;/p>
-&lt;h2 id="analytics">Analytics&lt;/h2>
-&lt;h2 id="google-analytics">Google Analytics&lt;/h2>
-&lt;p>详情点击 &lt;a href="https://gohugo.io/templates/internal/#configure-google-analytics">these steps&lt;/a>.&lt;/p>
-&lt;h3 id="google-tag-manager">Google Tag Manager&lt;/h3>
-&lt;p>详情点击 &lt;a href="https://developers.google.com/tag-manager">these steps&lt;/a>.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">analytics&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">google&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">SiteVerificationTag&lt;/span>: &lt;span style="color:#ae81ff">gid&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="umami-analytics">Umami Analytics&lt;/h3>
-&lt;p>详情点击 &lt;a href="https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/">these steps&lt;/a>.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">analytics&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">umami&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website_id&lt;/span>: &lt;span style="color:#ae81ff">data-website-id&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>主题配置</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/configurations/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/configurations/</guid><description>&lt;p>本文关于如何配置本主题，和管理创建的文章内容。&lt;/p>
+&lt;/ul></description></item><item><title>主题配置</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/configurations/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/configurations/</guid><description>&lt;p>本文关于如何配置本主题，和管理创建的文章内容。&lt;/p>
 &lt;h2 id="mini-configuration">Mini Configuration&lt;/h2>
 &lt;p>Open the &lt;code>config.yml&lt;/code> file in the root directory with an editor and change the configuration as follows:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">baseURL&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://hugo-ladder.pages.dev&amp;#39;&lt;/span> &lt;span style="color:#75715e"># set https://username.github.io&lt;/span>
@@ -666,7 +516,157 @@
 &lt;li>&lt;code>tags&lt;/code> tags&lt;/li>
 &lt;li>&lt;code>series&lt;/code> series, it will be show related post below the content.&lt;/li>
 &lt;li>&lt;code>featured&lt;/code> it will be show in home page featured post, &lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>Rich Content</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/rich-content/</link><pubDate>Mon, 18 Jul 2022 20:29:08 +0000</pubDate><guid>https://hugo-ladder.pages.dev/zh/blog/zh/rich-content/</guid><description>&lt;h2 id="figure">figure&lt;/h2>
+&lt;/ul></description></item><item><title>多语言支持</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/multi-language/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/multi-language/</guid><description>&lt;p>本文是关于多语言支持。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#available-languages">Available Languages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#configure-languages">Configure languages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#translation-file-example">Translation File Example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="available-languages">Available Languages&lt;/h2>
+&lt;p>目前主题支持这些语言:&lt;/p>
+&lt;ul>
+&lt;li>英语&lt;/li>
+&lt;li>简体中文&lt;/li>
+&lt;/ul>
+&lt;h2 id="configure-languages">Configure languages&lt;/h2>
+&lt;p>跟随 &lt;a href="https://gohugo.io/content-management/multilingual/#configure-languages">this Hugo documentation page&lt;/a> 给你的网站配置语言。&lt;/p>
+&lt;h2 id="translation-file-example">Translation File Example&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">blog&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;blog&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;blog&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">tags&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;tag&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;tags&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">archive&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;archive&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;archive&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">series&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;series&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;series&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">reading_time&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;One minute&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} min&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">word_count&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;one word&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} words&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">related_resources&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Related Resources&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">featured_posts&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Featured Posts&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Featured Posts&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">blog&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;文章&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;文章&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">tags&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;分类&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;分类&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">archive&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;历史文章&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;历史文章&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">series&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;系列文章&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;系列文章&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">reading_time&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;1 分钟&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} 分钟&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">word_count&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;字&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;{{ .Count }} 字&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">related_resources&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;相关系列文章推荐&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;相关系列文章推荐&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">featured_posts&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">one&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;推荐阅读&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">other&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;推荐阅读&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>如何零成本给博客集成 umami 数据统计分析功能</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/</guid><description>&lt;p>本篇文章介绍如何零成本给博客或者网站集成 &lt;a href="https://umami.is/">umami&lt;/a> 统计功能。数据库用的是 &lt;a href="https://app.supabase.com/">supabase&lt;/a> 提供的有限额的 &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a>，不过免费提供的 500M 对于 &lt;a href="https://umami.is/">umami&lt;/a> 来讲已经足够了。&lt;/p>
+&lt;p>托管 &lt;a href="https://umami.is/">umami&lt;/a> 服务用的是 &lt;a href="https://vercel.com/">vercel&lt;/a>。得益于现在的云厂商优秀的服务能力，你可以在 10 分钟内集成好 &lt;em>umami&lt;/em>。可以点击 &lt;a href="https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli">数据统计看板&lt;/a> 查看最终效果。&lt;/p>
+&lt;h2 id="创建数据库">创建数据库&lt;/h2>
+&lt;p>数据库用的是 &lt;a href="https://app.supabase.com/">supabase&lt;/a> 提供的有限额的 &lt;a href="https://supabase.com/docs/guides/database">postgres&lt;/a> 数据库，创建一个 supabase 账号，新建一个项目，输入 Datebase password 即可创建数据库服务。&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/cN3Zg4.png" alt="cN3Zg4">&lt;/p>
+&lt;p>创建可能会话费几分钟时间，创建完成后只需要拿到 &lt;code>DATABASE_URL&lt;/code> 即可。&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/image-20220815182141638.png" alt="image-20220815182141638">&lt;/p>
+&lt;h2 id="托管-umami">托管 umami&lt;/h2>
+&lt;p>托管 &lt;a href="https://umami.is/">umami&lt;/a> 服务用的是 &lt;a href="https://vercel.com/">vercel&lt;/a>。创建好数据库实例之后，可以通过 Vercel 一键部署 umami 服务了。访问 &lt;a href="https://umami.is/">umami 官方文档&lt;/a> 的 &lt;a href="https://umami.is/docs/running-on-vercel">Running on Vercel&lt;/a> 模块，有操作说明与一键部署脚本。&lt;/p>
+&lt;p>首先我们登录 GitHub 账号， &lt;code>fork&lt;/code> umami (&lt;a href="https://github.com/umami-software/umami">https://github.com/umami-software/umami&lt;/a>) 项目。&lt;/p>
+&lt;p>登录 &lt;a href="https://vercel.com/">vercel&lt;/a> ，创建一个的账号，建议使用 GitHub 账号注册登录，在 &lt;code>new project&lt;/code> 中选择 &lt;code>import&lt;/code> 你刚刚 &lt;code>fork&lt;/code> 的项目。&lt;/p>
+&lt;p>之后填写环境变量，这里我们需要填写两个环境变量&lt;/p>
+&lt;ul>
+&lt;li>DATABASE_URL：在创建数据库中拿到的 DATABASE_URL&lt;/li>
+&lt;li>TRACKER_SCRIPT_NAME： 这里默认的 &lt;code>tracker_script_name&lt;/code> 可能会导致部分 &lt;code>AdBlock&lt;/code> 拦截请求，损失一部分的访问数据，所以这里我填的是 &lt;code>hugo-ladder&lt;/code>。&lt;/li>
+&lt;/ul>
+&lt;p>最后在 Build 阶段， &lt;code>build command&lt;/code> 记得填写 &lt;code>yarn build &amp;amp;&amp;amp; yarn update-db&lt;/code>，这样的话会自动 migrate 数据库的表。无需自己手动导入。&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/gePzXI.png" alt="gePzXI">&lt;/p>
+&lt;p>当然如果你想自己导入的话，也可以直接从这里 &lt;a href="https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql">https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql&lt;/a> 获取需要的表。&lt;/p>
+&lt;h2 id="配置-umami">配置 umami&lt;/h2>
+&lt;p>在 vercel 部署完成 umami 后会得到一个 &lt;code>&amp;lt;deploy-id&amp;gt;.vercel.app&lt;/code> ，我们访问它，默认的账号密码是 &lt;strong>admin&lt;/strong> 和 &lt;strong>umami&lt;/strong>。&lt;/p>
+&lt;p>完成基础帐号配置后，点击侧边栏网站 Tab，点击添加网站。填写网站基本信息，可以勾选 &lt;code>enable share URL&lt;/code>，这样任何人都可以访问这个数据看板。&lt;/p>
+&lt;p>我们拿到对应的 &lt;code>data-website-id&lt;/code> 和 &lt;code>src&lt;/code> ，填入主题配置中的 &lt;code>params.analytics.umami.website_id&lt;/code> 和 &lt;code>params.analytics.umami.url&lt;/code> 即可。&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/OZcU7U.png" alt="OZcU7U">&lt;/p>
+&lt;p>最终，我们可以得到本站数据统计看板的功能🎉🎉🎉&lt;/p>
+&lt;p>原文链接: &lt;a href="https://guangzhengli.com/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/">https://guangzhengli.com/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/&lt;/a>&lt;/p></description></item><item><title>快速安装使用</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/quick-start/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/quick-start/</guid><description>&lt;p>本文是关于如何快速安装使用本主题。&lt;/p>
+&lt;h2 id="how-to-install">how to install&lt;/h2>
+&lt;p>在这个仓库中点击 &lt;code>Use this template&lt;/code> 创建博客。 &lt;a href="https://github.com/guangzhengli/hugo-ladder-exampleSite">https://github.com/guangzhengli/hugo-ladder-exampleSite&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png" alt="4dmtph">&lt;/p>
+&lt;p>点击后输入 &lt;code>username.github.io&lt;/code> 创建(GitHub Pages)仓库 &lt;strong>用你的 github 账号名称代替 username&lt;/strong>&lt;/p>
+&lt;p>接着配置你的 GitHub pages 配置信息，如下图所示:&lt;/p>
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/nsrExo.png" alt="nsrExo">&lt;/p>
+&lt;p>🎉🎉🎉 打开你的浏览器，输入: &lt;a href="https://username.github.io">https://username.github.io&lt;/a> 🎉🎉🎉&lt;/p></description></item><item><title>网站数据统计分析</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/analytics/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/analytics/</guid><description>&lt;p>本文关于如何集成网站数据统计分析。&lt;/p>
+&lt;h2 id="analytics">Analytics&lt;/h2>
+&lt;h2 id="google-analytics">Google Analytics&lt;/h2>
+&lt;p>详情点击 &lt;a href="https://gohugo.io/templates/internal/#configure-google-analytics">these steps&lt;/a>.&lt;/p>
+&lt;h3 id="google-tag-manager">Google Tag Manager&lt;/h3>
+&lt;p>详情点击 &lt;a href="https://developers.google.com/tag-manager">these steps&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">analytics&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">google&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">SiteVerificationTag&lt;/span>: &lt;span style="color:#ae81ff">gid&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="umami-analytics">Umami Analytics&lt;/h3>
+&lt;p>详情点击 &lt;a href="https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/">these steps&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">analytics&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">umami&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website_id&lt;/span>: &lt;span style="color:#ae81ff">data-website-id&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>评论功能</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/comment-system/</guid><description>&lt;p>本文关于如何集成评论功能，在文章末尾或者留言板中显示评论信息。&lt;/p>
+&lt;h3 id="comment-systems">Comment Systems&lt;/h3>
+&lt;p>在文章末尾或者留言板中显示评论信息。&lt;/p>
+&lt;h4 id="giscus">Giscus&lt;/h4>
+&lt;p>Follow &lt;a href="https://giscus.app/">these steps&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">comments&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">giscus&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">username/reponame&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo_id&lt;/span>: &lt;span style="color:#ae81ff">Rid&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">category&lt;/span>: &lt;span style="color:#ae81ff">Announcements&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">category_id&lt;/span>: &lt;span style="color:#ae81ff">DIC_id&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">mapping&lt;/span>: &lt;span style="color:#ae81ff">pathname&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">position&lt;/span>: &lt;span style="color:#ae81ff">top&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">lang&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span> &lt;span style="color:#75715e"># pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="utterances">Utterances&lt;/h4>
+&lt;p>Follow &lt;a href="https://utteranc.es/">these steps&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">comments&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">utteranc&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">enable&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">repo&lt;/span>: &lt;span style="color:#ae81ff">username/reponame&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">issueTerm&lt;/span>: &lt;span style="color:#ae81ff">pathname&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Rich Content</title><link>https://hugo-ladder.pages.dev/zh/blog/zh/rich-content/</link><pubDate>Mon, 18 Jul 2022 20:29:08 +0000</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://hugo-ladder.pages.dev/zh/blog/zh/rich-content/</guid><description>&lt;h2 id="figure">figure&lt;/h2>
 &lt;h2 id="ref-in-posts">ref in posts&lt;/h2>
 &lt;p>&lt;a href="https://hugo-ladder.pages.dev/zh/blog/zh/how-to-integrate-umami-for-free-to-blog-site/">Neat&lt;/a>&lt;/p>
 &lt;h2 id="hide-toggle">hide toggle&lt;/h2>
