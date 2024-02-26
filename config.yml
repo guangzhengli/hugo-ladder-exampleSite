@@ -80,7 +80,7 @@ params:
     umami:
       enable: true
       website_id: 2320eaa6-a90b-471c-b6ca-e79dadde8c4c
-      url: https://umami-ochre-nu.vercel.app/hugo-ladder.js
+      url: https://umami-ochre-nu.vercel.app/hugo-ladder
   guestbook:
     title: Guestbook
     description: Leave a comment below. It could be anything –- question, appreciation, information, or even humor.
